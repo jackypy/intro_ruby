@@ -3,7 +3,12 @@
 
 a = ''
 10.times do |i|
-	
+	a = i.odd?
+	if a == true
+		print "#{i}impar "
+	else
+ 		print "#{i}par "
+	end
 end
 
 puts a
