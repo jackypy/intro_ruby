@@ -10,9 +10,9 @@
 
 a = 5
 b = ''
-
+puts "<ul>"
 a.times do
   b = "<li> hola </li>\n"
-end
-
 puts b
+end
+ puts "</ul>"
